@@ -1,0 +1,340 @@
+<link type="text/css" rel="stylesheet" href="/css/calendar.css">
+<script src="/js/calendar.js"></script>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center" id="calendar_head_box">
+                <h3>Calendar</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <h5>Filters: </h5>
+            <div class="col-lg-4 input-field">
+                <label for="calendar_date_filter">Date</label>
+                <input id ="calendar_date_filter" type="text" class="datepicker">
+            </div>
+            <div class="col-lg-4 input-field">
+                <select id="calendar_level_filter">
+                    <option value="" disabled selected>Choose your option</option>
+                    <option value="1">Option 1</option>
+                    <option value="2">Option 2</option>
+                    <option value="3">Option 3</option>
+                </select>
+                <label for="calendar_level_filter">Class Level</label>
+            </div>
+            <div class="col-lg-4 input-field">
+                <select id="calendar_type_filter">
+                    <option value="" disabled selected>Choose your option</option>
+                    <option value="1">Option 1</option>
+                    <option value="2">Option 2</option>
+                    <option value="3">Option 3</option>
+                </select>
+                <label for="calendar_type_filter">Class Type</label>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <ul class="collapsible" data-collapsible="accordion">
+                    <li>
+                        <div class="collapsible-header active">Monday, 02/27/2017</div>
+                        <div class="collapsible-body calendar_table">
+                            <table class="bordered">
+                                <thead>
+                                    <tr>
+                                        <th data-field="calendar_time" style="float: left">Time</th>
+                                        <th data-field="calendar_des">Class Description</th>
+                                        <th data-field="calendar_res">Reservation</th>
+
+                                    </tr>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <p>9:00am - 10:00am</p>
+                                        </td>
+                                        <td>
+                                            <p><strong>Restorative Yoga</strong></p>
+                                            <p><strong>Class Level: </strong> All Level</p>
+                                        </td>
+                                        <td>
+                                            <a class="waves-effect waves-light btn calendar-resbtn">Reserve</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>9:00am - 10:00am</p>
+                                        </td>
+                                        <td>
+                                            <p><strong>Restorative Yoga</strong></p>
+                                            <p><strong>Class Level: </strong> All Level</p>
+                                        </td>
+                                        <td>
+                                            <a class="waves-effect waves-light btn calendar-resbtn">Reserve</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header">Tuesday, 02/28/2017</div>
+                        <div class="collapsible-body calendar_table">
+                            <table class="bordered">
+                                <thead>
+                                <tr>
+                                    <th data-field="calendar_time" style="float: left">Time</th>
+                                    <th data-field="calendar_des">Class Description</th>
+                                    <th data-field="calendar_res">Reservation</th>
+
+                                </tr>
+                                </thead>
+
+                                <tbody>
+                                <tr>
+                                    <td>
+                                        <p>9:00am - 10:00am</p>
+                                    </td>
+                                    <td>
+                                        <p><strong>Restorative Yoga</strong></p>
+                                        <p><strong>Class Level: </strong> All Level</p>
+                                    </td>
+                                    <td>
+                                        <a class="waves-effect waves-light btn calendar-resbtn">Reserve</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>9:00am - 10:00am</p>
+                                    </td>
+                                    <td>
+                                        <p><strong>Restorative Yoga</strong></p>
+                                        <p><strong>Class Level: </strong> All Level</p>
+                                    </td>
+                                    <td>
+                                        <a class="waves-effect waves-light btn calendar-resbtn">Reserve</a>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header">Wednesday, 03/01/2017</div>
+                        <div class="collapsible-body calendar_table">
+                            <table class="bordered">
+                                <thead>
+                                <tr>
+                                    <th data-field="calendar_time" style="float: left">Time</th>
+                                    <th data-field="calendar_des">Class Description</th>
+                                    <th data-field="calendar_res">Reservation</th>
+
+                                </tr>
+                                </thead>
+
+                                <tbody>
+                                <tr>
+                                    <td>
+                                        <p>9:00am - 10:00am</p>
+                                    </td>
+                                    <td>
+                                        <p><strong>Restorative Yoga</strong></p>
+                                        <p><strong>Class Level: </strong> All Level</p>
+                                    </td>
+                                    <td>
+                                        <a class="waves-effect waves-light btn calendar-resbtn">Reserve</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>9:00am - 10:00am</p>
+                                    </td>
+                                    <td>
+                                        <p><strong>Restorative Yoga</strong></p>
+                                        <p><strong>Class Level: </strong> All Level</p>
+                                    </td>
+                                    <td>
+                                        <a class="waves-effect waves-light btn calendar-resbtn">Reserve</a>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header">Thursday, 03/02/2017</div>
+                        <div class="collapsible-body calendar_table">
+                            <table class="bordered">
+                                <thead>
+                                <tr>
+                                    <th data-field="calendar_time" style="float: left">Time</th>
+                                    <th data-field="calendar_des">Class Description</th>
+                                    <th data-field="calendar_res">Reservation</th>
+
+                                </tr>
+                                </thead>
+
+                                <tbody>
+                                <tr>
+                                    <td>
+                                        <p>9:00am - 10:00am</p>
+                                    </td>
+                                    <td>
+                                        <p><strong>Restorative Yoga</strong></p>
+                                        <p><strong>Class Level: </strong> All Level</p>
+                                    </td>
+                                    <td>
+                                        <a class="waves-effect waves-light btn calendar-resbtn">Reserve</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>9:00am - 10:00am</p>
+                                    </td>
+                                    <td>
+                                        <p><strong>Restorative Yoga</strong></p>
+                                        <p><strong>Class Level: </strong> All Level</p>
+                                    </td>
+                                    <td>
+                                        <a class="waves-effect waves-light btn calendar-resbtn">Reserve</a>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header">Friday, 03/03/2017</div>
+                        <div class="collapsible-body calendar_table">
+                            <table class="bordered">
+                                <thead>
+                                <tr>
+                                    <th data-field="calendar_time" style="float: left">Time</th>
+                                    <th data-field="calendar_des">Class Description</th>
+                                    <th data-field="calendar_res">Reservation</th>
+
+                                </tr>
+                                </thead>
+
+                                <tbody>
+                                <tr>
+                                    <td>
+                                        <p>9:00am - 10:00am</p>
+                                    </td>
+                                    <td>
+                                        <p><strong>Restorative Yoga</strong></p>
+                                        <p><strong>Class Level: </strong> All Level</p>
+                                    </td>
+                                    <td>
+                                        <a class="waves-effect waves-light btn calendar-resbtn">Reserve</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>9:00am - 10:00am</p>
+                                    </td>
+                                    <td>
+                                        <p><strong>Restorative Yoga</strong></p>
+                                        <p><strong>Class Level: </strong> All Level</p>
+                                    </td>
+                                    <td>
+                                        <a class="waves-effect waves-light btn calendar-resbtn">Reserve</a>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header">Saturday, 03/04/2017</div>
+                        <div class="collapsible-body calendar_table">
+                            <table class="bordered">
+                                <thead>
+                                <tr>
+                                    <th data-field="calendar_time" style="float: left">Time</th>
+                                    <th data-field="calendar_des">Class Description</th>
+                                    <th data-field="calendar_res">Reservation</th>
+
+                                </tr>
+                                </thead>
+
+                                <tbody>
+                                <tr>
+                                    <td>
+                                        <p>9:00am - 10:00am</p>
+                                    </td>
+                                    <td>
+                                        <p><strong>Restorative Yoga</strong></p>
+                                        <p><strong>Class Level: </strong> All Level</p>
+                                    </td>
+                                    <td>
+                                        <a class="waves-effect waves-light btn calendar-resbtn">Reserve</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>9:00am - 10:00am</p>
+                                    </td>
+                                    <td>
+                                        <p><strong>Restorative Yoga</strong></p>
+                                        <p><strong>Class Level: </strong> All Level</p>
+                                    </td>
+                                    <td>
+                                        <a class="waves-effect waves-light btn calendar-resbtn">Reserve</a>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header">Sunday, 03/05/2017</div>
+                        <div class="collapsible-body calendar_table">
+                            <table class="bordered">
+                                <thead>
+                                <tr>
+                                    <th data-field="calendar_time" style="float: left">Time</th>
+                                    <th data-field="calendar_des">Class Description</th>
+                                    <th data-field="calendar_res">Reservation</th>
+
+                                </tr>
+                                </thead>
+
+                                <tbody>
+                                <tr>
+                                    <td>
+                                        <p>9:00am - 10:00am</p>
+                                    </td>
+                                    <td>
+                                        <p><strong>Restorative Yoga</strong></p>
+                                        <p><strong>Class Level: </strong> All Level</p>
+                                    </td>
+                                    <td>
+                                        <a class="waves-effect waves-light btn calendar-resbtn">Reserve</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>9:00am - 10:00am</p>
+                                    </td>
+                                    <td>
+                                        <p><strong>Restorative Yoga</strong></p>
+                                        <p><strong>Class Level: </strong> All Level</p>
+                                    </td>
+                                    <td>
+                                        <a class="waves-effect waves-light btn calendar-resbtn">Reserve</a>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </li>
+                 </ul>
+            </div>
+        </div>
+    </div>

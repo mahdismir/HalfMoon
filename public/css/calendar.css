@@ -1,0 +1,23 @@
+body{
+    background: #F3EFDF;
+}
+#calendar_head_box{
+    background-color: #0F7E7E;
+    color: white;
+}
+#calendar_head_box > h3{
+    padding: 20%;
+}
+#calendar_level_filter > span{
+    float: right;
+}
+.collapsible-header{
+    background-color: #2b4256;
+    color: white;
+}
+.calendar_table {
+    background-color: lightcyan;
+}
+.calendar-resbtn{
+    padding: 0 0.5rem;
+}

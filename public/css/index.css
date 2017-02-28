@@ -1,0 +1,36 @@
+body{
+    background-color: #009688;
+}
+.move_top
+{
+    margin-top: 10px;
+}
+/*.img { min-width:100%; max-width:100%; min-height:100%; max-height:100%;}*/
+
+.boxed {
+    border: 2px solid white ;
+    width: 350px;
+    height: 242px;
+    margin: 30px;
+    /*margin-left: 150px;*/
+}
+.text_color
+{
+    color: white;
+}
+.center{
+    text-align: center;
+}
+.site_footer
+{
+    background-color: #222;
+    color: #fff;
+    margin-top: 40px;
+    padding-top: 40px;
+}
+.top{
+    margin-top: -32px;
+}
+img {
+    float: left;
+}
