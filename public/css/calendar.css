@@ -18,3 +18,13 @@
 .calendar-resbtn{
     padding: 0 0.5rem;
 }
+#modal_reserve{
+    background-color: transparent;
+    border: 0;
+    box-shadow: none;
+}
+#reserve_content{
+    border-radius: 0%;
+    border: none;
+    box-shadow: none;
+}

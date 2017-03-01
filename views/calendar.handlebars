@@ -63,7 +63,7 @@
                                             <p><strong>Class Level: </strong> All Level</p>
                                         </td>
                                         <td>
-                                            <a class="waves-effect waves-light btn calendar-resbtn">Reserve</a>
+                                            <a class="waves-effect waves-light btn calendar-resbtn" href="#modal_reserve" data-target="modal1">Reserve</a>
                                         </td>
                                     </tr>
                                     <tr>
@@ -338,3 +338,24 @@
             </div>
         </div>
     </div>
+
+<div id="modal_reserve" class="modal">
+    <div class="modal-content" id="reserve_content">
+        <h4>Make your reservation</h4>
+        <form>
+            <div class="input-field">
+                <label for="reserve_name">Your Name: </label>
+                <input type="text" id="reserve_name" required>
+            </div>
+            <div class="input-field">
+                <label for="reserve_email">Your Email: </label>
+                <input type="email" id="reserve_email" required>
+            </div>
+        </form>
+    </div>
+    <div class="modal-footer">
+        <button href="/calender" class="btn modal-action modal-close waves-effect waves-green btn-flat" onclick="Materialize.toast('Reserved Successfully!', 3000)">Reserve</button>
+        <!--<button type="submit" href="/calender" class=" modal-action modal-close waves-effect waves-green btn-flat">Reserve</button>-->
+        <button href="/calender" class=" modal-action modal-close waves-effect waves-green btn-flat">Cancel</button>
+    </div>
+</div>
