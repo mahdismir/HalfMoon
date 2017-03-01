@@ -4,7 +4,7 @@
  */
 
 exports.view = function(req, res){
-  res.render('teacherTraining', {
+  res.render('training', {
 
   });
 };
