@@ -62,6 +62,10 @@ body{
         margin-right: auto;
         margin-left: auto;
     }
+    .mobile
+    {
+        display: none;
+    }
     .cat1{
         
         margin-bottom: 50px;
@@ -69,4 +73,7 @@ body{
     .col-centered{
  
     margin-left: 40px;
+}
+.adjust{
+    font-size-adjust: 0.58;
 }
