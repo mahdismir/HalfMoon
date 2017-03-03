@@ -1,0 +1,10 @@
+.sessions-hiding{
+    display: none;
+}
+
+.sessions-icon-center{
+    padding: 20px;
+    display:block;
+    text-align:center;
+    font-size: 25px;
+}
