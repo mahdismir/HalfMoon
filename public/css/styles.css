@@ -77,6 +77,16 @@ div.scrollmenu a:hover {
     margin: 0 auto;
 }
 /*--------------------------Testimonials---------------------------*/
+
+.testimonial-header{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.testimonial-background{
+    background-color: #DDDBCB;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
 @media (min-width:319px) and (max-width:767px) { 
     
     .img-circle{
