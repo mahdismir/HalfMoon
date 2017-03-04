@@ -75,18 +75,55 @@ div.scrollmenu a:hover {
     display: block;
     margin: 0 auto;
 }
+/*--------------------------Testimonials---------------------------*/
 
-/*-------------------------------------------------*/
-
-.img-circle{
-    border-radius: 100%;
-    height: 90px;
-    width: 90px
+.testimonial-header{
+    text-align: center;
+    margin-bottom: 40px;
 }
-.testimonial-name{
-    position: relative;
-    top: 10px;
-    left: 27px;
+.testimonial-background{
+    background-color: #DDDBCB;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+@media (min-width:319px) and (max-width:767px) { 
+    
+    .img-circle{
+        border-radius: 100%;
+        height: 90px;
+        width: 90px;
+        margin: 10px;
+    }
+
+    .testimonials-profile{
+        text-align: center;
+    }
+    .testimonials-text{
+        text-align: center;
+    }
+}
+
+@media (min-width:768px)  { 
+    .img-circle{
+        border-radius: 100%;
+        height: 120px;
+        width: 120px
+    }
+    .testimonial-name{
+        position: relative;
+        top: 10px;
+        left: 40px;
+    }
+    .testimonials-profile{
+        float: left;
+        width: 20%;
+    }
+    .testimonials-text{
+        float: right;
+        width: 80%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
 }
 
 /*------------ ABOUT PAGE ------------*/
