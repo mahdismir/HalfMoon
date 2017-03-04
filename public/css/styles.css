@@ -1,3 +1,14 @@
+/*
+Heading font: Playfair Display
+Body font: Raleway
+Background color: #F5F1E3 (cream)
+Secondary background color: #DDDBCB (dark cream)
+Contrast color: #1B9AAA (teal)
+Font color: #000000 (black)
+Secondary font color: #FFFFFF (white)
+Contrast font color: same as teal;
+*/
+
 body {
     padding-top: 5%;
     background: #F3EFDF;
@@ -78,6 +89,28 @@ div.scrollmenu a:hover {
     top: 10px;
     left: 27px;
 }
+
+/*------------ ABOUT PAGE ------------*/
+
+#about_container {
+    width: 75%;
+    margin: auto; /*centers div*/
+    padding: 3% 0%;
+}
+
+#about_image {
+    padding-bottom: 1%;
+    text-align: center;
+}
+
+#about_image img {
+    width: 30vw;
+}
+
+#about_header {
+    text-align: center;
+}
+
 /*------------ FOOTER ------------*/
 
 .footer-media-icon {
