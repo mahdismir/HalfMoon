@@ -184,7 +184,7 @@ div.scrollmenu a:hover {
 }
 .submit{
     color: black;
-    background-color: darkgray;
+    background-color: white;
     margin-top: 5px
     
 }
@@ -193,16 +193,24 @@ div.scrollmenu a:hover {
 }
 
 footer {
-    background: #222;
-    color: white;
+    color: white !important;
     text-align: center;
-    padding: 20px;
-    font-family: Georgia, Times, serif;
+    font-family: 'Raleway', sans-serif;
 }
 #footer_input{
     border: 0;
 }
 
+#form-footer-label{
+    color: white;
+}
+
+.panel-footer.panel-custom{
+  background-color:#1B9AAA;
+  margin: 0px;
+    border: 0px;
+  
+}
 /*---------------------------------*/
 @media (min-width:992px) and (max-width: 1920px){
     .footer-media-icon{
