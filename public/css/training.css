@@ -1,0 +1,10 @@
+.training-hiding{
+    display: none;
+}
+
+.training-icon-center{
+    padding: 20px;
+    display:block;
+    text-align:center;
+    font-size: 25px;
+}
