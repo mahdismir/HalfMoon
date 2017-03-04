@@ -112,3 +112,16 @@ footer {
     border: 0;
 }
 
+/*---------------------------------*/
+@media (min-width:992px) and (max-width: 1920px){
+    .footer-media-icon{
+        padding: 1%;
+        margin-top: 50px !important;
+        float: left;
+    }
+    #subsform{
+        margin-top: 5px;
+        float: right;
+        width: 50%;
+    }
+}
