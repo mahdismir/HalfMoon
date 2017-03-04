@@ -1,4 +1,5 @@
-
+<script src="/js/training.js"></script>
+<link rel="stylesheet" href="/css/training.css">
     <!--=============================================== COVER =============================================================== -->
     <div class="cover">
         <div class="cover-text">Teacher Training</div>
@@ -6,14 +7,19 @@
     
     <!--============================================ Sliding Menu =========================================================== -->
     
-    <div class="scrollmenu">
+    <!--<div class="scrollmenu">
       <a href="#200hr">200hr Teacher Training</a>
       <a href="#500hr">500hr Teacher Training</a>
       <a href="#ContinuingEdu">Continuing Education</a> 
-    </div>
+    </div>-->
+    <ul id="tabs-swipe" class="tabs">
+        <li class="tab col l4"><a href="#200hr_tabs">200hr Teacher Training</a></li>
+        <li class="tab col l4"><a href="#500hr_tabs">500hr Teacher Training</a></li>
+        <li class="tab col l4"><a href="#conEdu_tabs">Continuing Education</a></li>
+    </ul>
     
     <!--============================================= 200hr Teacher Training ====================================================== -->
-    
+    <div id="200hr_tabs">
     <section id="200hr" class="box">
     <div class="container-fluid">
         <div class="row">
@@ -21,9 +27,8 @@
             <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8">
                 <br><br>
                 <p>A short paragraph about 200hr progam. A short paragraph about 200hr progam. A short paragraph about 200hr progam. A short paragraph about 200hr progam. A short paragraph about 200hr progam. A short paragraph about 200hr progam. </p>
-
-                
-                <p>Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. </p>
+                <span class="glyphicon glyphicon-plus training-icon-center" onclick="two_hide_info()"></span>
+                <p id="200h_hide" class="training-hiding">Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. </p>
             </div>
             <div class="col-xs-1 col-sm-1 col-md-2 col-lg-2"></div>  
         </div>
@@ -66,9 +71,9 @@
         </div>
         
     </section> 
-    
+    </div>
     <!--========================================= 500hr Teacher Training ================================================== -->
-    
+    <div id="500hr_tabs">
     <section id="500hr" class="box">
     <div class="container-fluid">
         <div class="row">
@@ -76,8 +81,8 @@
             <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8">
                 <br><br>
                 <p>A short paragraph about 500hr progam. A short paragraph about 500hr progam. A short paragraph about 500hr progam. A short paragraph about 500hr progam. A short paragraph about 500hr progam. A short paragraph about 500hr progam. </p>
-
-                <p>Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. </p>
+                <span class="glyphicon glyphicon-plus training-icon-center" onclick="five_hide_info()"></span>
+                <p id="500h_hide" class="training-hiding">Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. </p>
             </div>
             <div class="col-xs-1 col-sm-1 col-md-2 col-lg-2"></div>  
         </div>
@@ -120,11 +125,12 @@
             </div>
         </div>
         
-    </section> 
-    
+    </section>
+    </div>
     
     <!--=========================================== Continuing Education =================================================== -->
-    
+
+    <div id="conEdu_tabs">
     <section id="ContinuingEdu" class="box">
     <div class="container-fluid">
         <div class="row">
@@ -132,8 +138,8 @@
             <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8">
                 <br><br>
                 <p>A short paragraph about ContinuingEdu progam. A short paragraph about ContinuingEdu progam. A short paragraph about ContinuingEdu progam. A short paragraph about ContinuingEdu progam. A short paragraph about ContinuingEdu progam. A short paragraph about ContinuingEdu progam. </p>
-
-                <p>Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. </p>
+                <span class="glyphicon glyphicon-plus training-icon-center" onclick="conEdu_hide_info()"></span>
+                <p id="conEdu_hide" class="training-hiding">Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. Extended version of the info and details. </p>
             </div>
             <div class="col-xs-1 col-sm-1 col-md-2 col-lg-2"></div>  
         </div>
@@ -174,8 +180,8 @@
             </div>
         </div>
         
-    </section> 
-
+    </section>
+    </div>
 
 
 
