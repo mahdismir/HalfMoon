@@ -1,12 +1,11 @@
 /*
 Heading font: Playfair Display
 Body font: Raleway
-Background color: #F5F1E3 (cream)
-Secondary background color: #DDDBCB (dark cream)
-Contrast color: #1B9AAA (teal)
-Font color: #000000 (black)
-Secondary font color: #FFFFFF (white)
-Contrast font color: same as teal;
+#F5F1E3 Background color (cream)
+#DDDBCB Secondary background color (dark cream)
+#1B9AAA Contrast color (teal)
+#000000 Font color (black)
+#FFFFFF Secondary font color (white)
 */
 
 body {
