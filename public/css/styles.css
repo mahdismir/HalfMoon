@@ -111,6 +111,29 @@ div.scrollmenu a:hover {
     text-align: center;
 }
 
+/*------------ CONTACT PAGE ------------*/
+
+#contact_infoTable {
+    margin-bottom: 5%;
+}
+
+#contact_infoTable td {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+}
+
+.contact_icons {
+    text-align: right;
+    padding-right: 3%;
+}
+
+#contact_mediaTable td {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+}
+
 /*------------ FOOTER ------------*/
 
 .footer-media-icon {
