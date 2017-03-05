@@ -9,8 +9,11 @@ Body font: Raleway
 #D3D3D3 Link hover color (light gray)
 */
 
-body, p {
+body {
     background: #F3EFDF;
+}
+
+body, p {
     font-family: 'Raleway', sans-serif;
     color: #000000;
     font-size: 1.1em;
@@ -55,13 +58,13 @@ a:hover {
     text-decoration: underline;
 }
 
-html,
+/*html,
 body,
 .cover {
     height: 70%;
-}
+}*/
 
-.cover {
+/*.cover {
     background-size: cover;
     display: table;
     width: 100%;
@@ -69,15 +72,15 @@ body,
     text-align: center;
     background-color: #0F7E7E;
     color: white;
-}
+}*/
 
-.cover-text {
+/*.cover-text {
     text-align: center;
     color: black;
     display: table-cell;
     vertical-align: middle;
     font-size: 40px;
-}
+}*/
 
 /*------------ NAVBAR ------------*/
 
