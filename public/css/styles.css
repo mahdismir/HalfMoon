@@ -27,6 +27,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     font-size: 3em;
+    font-weight: bold;
 }
 
 h2 {
@@ -47,7 +48,7 @@ h4 {
     }
 
     h1 {
-        font-size: 1.7em;
+        font-size: 1.9em;
     }
 }
 
@@ -75,6 +76,11 @@ body,
     background-color: #0F7E7E;
     color: white;
 }*/
+
+.cover {
+    text-align: center;
+    padding: 2% 0 2% 0;
+}
 
 /*.cover-text {
     text-align: center;
@@ -216,7 +222,7 @@ div.scrollmenu a:hover {
 /*------------ CONTACT PAGE ------------*/
 
 #contact_infoTable {
-    margin-bottom: 5%;
+    margin-bottom: 15%;
 }
 
 #contact_infoTable td {
