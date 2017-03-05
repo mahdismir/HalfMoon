@@ -1,12 +1,25 @@
-#index_head_box{
-    background-image: url("../images/landingpage.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+#index_heading{
+    width: 100%;
 }
 
-#index_heading{
-    padding-right: 20%;
-    padding-left: 20%;
-    padding-bottom: 5%;
-    padding-top: 50%;
+#index_leadwords, .index_section_head{
+    color: #1B9AAA;
+}
+
+#index_benefit_box{
+    background-color: #DDDBCB;
+}
+
+.card{
+    margin-right: 4.5%;
+    margin-left: 4.5%;
+    margin-bottom: 15%;
+}
+
+.index_o_box{
+    height: 28vw;
+}
+
+.offer_text{
+    padding-top: 20%;
 }
