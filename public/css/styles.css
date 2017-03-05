@@ -81,6 +81,14 @@ a:hover {
     color: #189AAA;
 }
 
+.btn-floating {
+    background-color: #189AAA;
+}
+
+.btn-floating:hover {
+    background-color: rgba(24, 154, 170, 0.8);
+}
+
 /*html,
 body,
 .cover {
@@ -348,11 +356,18 @@ div.scrollmenu a:hover {
     margin-right: 10px;
 }
 .submit{
-    color: black;
-    background-color: white;
-    margin-top: 5px
-    
+    color: white;
+    border: 2px solid white;
+    background-color: transparent;
+    margin-top: 5px;
 }
+
+.submit:hover {
+    background-color: white;
+    color: #189AAA;
+    border: 2px solid #189AAA;
+}
+
 #subsform{
     margin-top: 5px;
 }
