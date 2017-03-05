@@ -71,6 +71,24 @@ a:hover {
     text-decoration: underline;
 }
 
+.btn {
+    background-color: #1B9AAA;
+}
+
+.btn:hover {
+    background-color: transparent;
+    border: 2px solid #189AAA;
+    color: #189AAA;
+}
+
+.btn-floating {
+    background-color: #189AAA;
+}
+
+.btn-floating:hover {
+    background-color: rgba(24, 154, 170, 0.8);
+}
+
 /*html,
 body,
 .cover {
@@ -230,7 +248,27 @@ div.scrollmenu a:hover {
     .testimonial-name{
         position: relative;
         top: 10px;
-        left: 40px;
+    }
+    #testi1{
+        left: 30px;
+    }
+    #testi2{
+        left: 23px;
+    }
+    #testi3{
+        left: 25px;
+    }
+    #testi4{
+        left: 30px;
+    }
+    #testi5{
+        left: 50px;
+    }
+    #testi6{
+        left: 50px;
+    }
+    #testi7{
+        left: 50px;
     }
     .testimonials-profile{
         float: left;
@@ -318,11 +356,18 @@ div.scrollmenu a:hover {
     margin-right: 10px;
 }
 .submit{
-    color: black;
-    background-color: white;
-    margin-top: 5px
-    
+    color: white;
+    border: 2px solid white;
+    background-color: transparent;
+    margin-top: 5px;
 }
+
+.submit:hover {
+    background-color: white;
+    color: #189AAA;
+    border: 2px solid #189AAA;
+}
+
 #subsform{
     margin-top: 5px;
 }
