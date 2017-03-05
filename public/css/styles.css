@@ -9,8 +9,11 @@ Body font: Raleway
 #D3D3D3 Link hover color (light gray)
 */
 
-body, p {
+body {
     background: #F3EFDF;
+}
+
+body, p {
     font-family: 'Raleway', sans-serif;
     color: #000000;
     font-size: 1.1em;
@@ -20,8 +23,10 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Playfair Display', serif;
 }
 
+
 h1 {
     font-size: 3em;
+    font-weight: bold;
 }
 
 h2 {
@@ -42,7 +47,7 @@ h4 {
     }
 
     h1 {
-        font-size: 1.7em;
+        font-size: 1.9em;
     }
 }
 
@@ -55,13 +60,13 @@ a:hover {
     text-decoration: underline;
 }
 
-html,
+/*html,
 body,
 .cover {
     height: 70%;
-}
+}*/
 
-.cover {
+/*.cover {
     background-size: cover;
     display: table;
     width: 100%;
@@ -69,15 +74,20 @@ body,
     text-align: center;
     background-color: #0F7E7E;
     color: white;
+}*/
+
+.cover {
+    text-align: center;
+    padding: 2% 0 2% 0;
 }
 
-.cover-text {
+/*.cover-text {
     text-align: center;
     color: black;
     display: table-cell;
     vertical-align: middle;
     font-size: 40px;
-}
+}*/
 
 /*------------ NAVBAR ------------*/
 
@@ -116,16 +126,18 @@ div.scrollmenu a:hover {
 
 /*------------------------------------------------*/
 
-.box{
-    padding: 20px;
-}
-/*------------------------------------------------*/
-
 .expand{
     height: 50px;
     width: 50px;
     display: block;
     margin: 0 auto;
+}
+
+.bulletpoint{
+    
+    border-radius: 100%;
+    height: 5px;
+    width: 5px;
 }
 /*--------------------------Testimonials---------------------------*/
 
@@ -138,6 +150,7 @@ div.scrollmenu a:hover {
     padding-top: 10px;
     padding-bottom: 5px;
 }
+
 @media (min-width:319px) and (max-width:767px) { 
     
     .img-circle{
@@ -208,7 +221,7 @@ div.scrollmenu a:hover {
 /*------------ CONTACT PAGE ------------*/
 
 #contact_infoTable {
-    margin-bottom: 5%;
+    margin-bottom: 15%;
 }
 
 #contact_infoTable td {
