@@ -42,7 +42,7 @@
 }
 
 .offer_head{
-    /*padding-top: 15%;*/
+    padding-top: 15%;
 }
 
 .offer_img{
@@ -50,12 +50,17 @@
     float: left;
     width:  100%;
     height: 100%;
+    pa
 }
 
 @media (max-width: 767px) {
     .index_container_desktop {
         display: none;
     }
+    .col{
+        float: none!important;
+    }
+
 }
 
 @media (min-width: 768px) {
