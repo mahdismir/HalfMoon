@@ -17,11 +17,13 @@ body, p {
     font-family: 'Raleway', sans-serif;
     color: #000000;
     font-size: 1.1em;
+    text-align: justify;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Playfair Display', serif;
 }
+
 
 h1 {
     font-size: 3em;
@@ -119,16 +121,18 @@ div.scrollmenu a:hover {
 
 /*------------------------------------------------*/
 
-.box{
-    padding: 20px;
-}
-/*------------------------------------------------*/
-
 .expand{
     height: 50px;
     width: 50px;
     display: block;
     margin: 0 auto;
+}
+
+.bulletpoint{
+    
+    border-radius: 100%;
+    height: 5px;
+    width: 5px;
 }
 /*--------------------------Testimonials---------------------------*/
 
@@ -141,6 +145,7 @@ div.scrollmenu a:hover {
     padding-top: 10px;
     padding-bottom: 5px;
 }
+
 @media (min-width:319px) and (max-width:767px) { 
     
     .img-circle{
