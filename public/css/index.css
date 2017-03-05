@@ -16,10 +16,17 @@
     margin-bottom: 15%;
 }
 
-.index_o_box{
-    height: 28vw;
+.index_o_box_text{
+    padding: 9% !important;
 }
 
-.offer_text{
-    padding-top: 20%;
+.offer_head{
+    /*padding-top: 15%;*/
+}
+
+.offer_img{
+    position: relative;
+    float: left;
+    width:  100%;
+    height: 100%;
 }
