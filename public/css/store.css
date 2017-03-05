@@ -1,8 +1,14 @@
 #item_store_margin
-{
+/*{
     margin-top: 30px;
     margin-bottom: 30px;
-}
+}*/
 #margin_image{
-    margin :30px;
+    /*margin :30px;*/
+}
+
+@media (max-width: 767px) {
+    .col{
+        float: none!important;
+    }
 }
