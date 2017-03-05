@@ -6,8 +6,22 @@
     color: #1B9AAA;
 }
 
+#index_leadwords {
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    padding-bottom: 2%;
+    /*letter-spacing: 1px;*/
+}
+
 #index_benefit_box{
     background-color: #DDDBCB;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#index_offer_box {
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 .card{
@@ -16,8 +30,15 @@
     margin-bottom: 15%;
 }
 
+.card-content {
+    /*height: 25vh;*/
+    padding-top: 5% !important;
+}
+
 .index_o_box_text{
-    padding: 9% !important;
+    /*padding: 9% !important;*/
+    margin: 6% 0;
+    padding: 0 3% !important;
 }
 
 .offer_head{
@@ -29,4 +50,16 @@
     float: left;
     width:  100%;
     height: 100%;
+}
+
+@media (max-width: 767px) {
+    .index_container_desktop {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .index_container_mobile {
+        display: none;
+    }
 }
