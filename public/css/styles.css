@@ -230,7 +230,27 @@ div.scrollmenu a:hover {
     .testimonial-name{
         position: relative;
         top: 10px;
-        left: 40px;
+    }
+    #testi1{
+        left: 30px;
+    }
+    #testi2{
+        left: 23px;
+    }
+    #testi3{
+        left: 25px;
+    }
+    #testi4{
+        left: 30px;
+    }
+    #testi5{
+        left: 50px;
+    }
+    #testi6{
+        left: 50px;
+    }
+    #testi7{
+        left: 50px;
     }
     .testimonials-profile{
         float: left;
