@@ -5,16 +5,50 @@ Body font: Raleway
 #DDDBCB Secondary background color (dark cream)
 #1B9AAA Contrast color (teal)
 #000000 Font color (black)
-#FFFFFF Secondary font color (white)
+#FFFFFF Secondary font/link color (white)
+#D3D3D3 Link hover color (light gray)
 */
 
-body {
+body, p {
     background: #F3EFDF;
     font-family: 'Raleway', sans-serif;
+    color: #000000;
+    font-size: 1.1em;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Playfair Display', serif;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+@media (max-width: 767px) {
+    body, p {
+        font-size: 1em;
+    }
+
+    h1 {
+        font-size: 1.7em;
+    }
+}
+
+a {
+    color: #1B9AAA;
+}
+
+a:hover {
+    color: darkgray;
+    text-decoration: underline;
 }
 
 html,
@@ -39,6 +73,21 @@ body,
     display: table-cell;
     vertical-align: middle;
     font-size: 40px;
+}
+
+/*------------ NAVBAR ------------*/
+
+.navbar_custom {
+    background-color: #1B9AAA;
+}
+
+.navbar_custom a {
+    color: #FFFFFF;
+}
+
+.navbar_custom a:hover {
+    color: #D3D3D3;
+    text-decoration: none;
 }
 
 /*------------ SCROLLING MENU ------------*/
@@ -134,16 +183,22 @@ div.scrollmenu a:hover {
 }
 
 #about_image {
-    padding-bottom: 1%;
     text-align: center;
 }
 
 #about_image img {
-    width: 30vw;
+    width: 40vw;
 }
 
 #about_header {
     text-align: center;
+}
+
+@media (max-width: 767px) {
+    #about_image img {
+        margin-top: 5%;
+        width: 60vw;
+    }
 }
 
 /*------------ CONTACT PAGE ------------*/
@@ -169,7 +224,17 @@ div.scrollmenu a:hover {
     padding-left: 0;
 }
 
+
 /*------------ FOOTER ------------*/
+
+.footer_custom a {
+    color: #FFFFFF;
+}
+
+.footer_custom a:hover {
+    color: #D3D3D3;
+    text-decoration: none;
+}
 
 .footer-media-icon {
     padding: 1%;
