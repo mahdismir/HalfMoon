@@ -245,36 +245,10 @@ div.scrollmenu a:hover {
         height: 120px;
         width: 120px
     }
-    .testimonial-name{
-        position: relative;
-        top: 10px;
-    }
-    #testi1{
-        left: 30px;
-    }
-    #testi2{
-        left: 23px;
-    }
-    #testi3{
-        left: 25px;
-    }
-    #testi4{
-        left: 30px;
-    }
-    #testi5{
-        left: 50px;
-    }
-    #testi6{
-        left: 50px;
-    }
-    #testi7{
-        left: 50px;
-    }
-    #testi8{
-        left: 40px;
-    }
+
     .testimonials-profile{
         float: left;
+        padding-top: 2%;
         width: 20%;
     }
     .testimonials-text{
