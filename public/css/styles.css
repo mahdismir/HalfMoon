@@ -369,9 +369,13 @@ footer {
 }
 
 @media (min-width:992px) and (max-width:2000px){
-    .socialmedia{   
+    .socialmedia{
+        display: inline-block;
+        
     }
     .subform{
-    
+        display: inline-block;
+        width: 80%;
+        padding-left: 50vw;
     }
 }
