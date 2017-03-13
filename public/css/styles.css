@@ -356,6 +356,7 @@ footer {
 }
 .socialmedia{}
 .subform{}
+.subbutton{}
 
 @media (min-width:319px) and (max-width:991px){
     .socialmedia{
@@ -366,6 +367,10 @@ footer {
         padding-top: 10px;
         text-align: center;
     }
+    .subbutton{
+        padding-bottom: 30px;
+        text-align: center;   
+    }
 }
 
 @media (min-width:992px) and (max-width:2000px){
@@ -375,7 +380,9 @@ footer {
     }
     .subform{
         display: inline-block;
-        width: 80%;
-        padding-left: 50vw;
+        padding-left: 40vw;
+    }
+    .subbutton{
+        display: inline-block;
     }
 }
