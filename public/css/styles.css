@@ -210,6 +210,13 @@ div.scrollmenu a:hover {
     height: 5px;
     width: 5px;
 }
+
+
+/*------------------------ Sessions -------------------------------*/
+/*#RestorativeYoga p{
+    text-align: justify;
+}*/
+/*------------------------ Training -------------------------------*/
 /*--------------------------Testimonials---------------------------*/
 
 .testimonial-header{
@@ -350,6 +357,9 @@ div.scrollmenu a:hover {
     border: 0;
 }
 
+#form-footer-label{
+    color: white;
+}
 footer {
     background-color: #1B9AAA;
     font-family: 'Raleway', sans-serif;
