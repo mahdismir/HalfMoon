@@ -358,6 +358,7 @@ footer {
 .subform{}
 .subbutton{}
 
+/*--------------------- media queries for footer --------------------*/
 
 @media (min-width:319px) and (max-width:1023px){
     .socialmedia{
@@ -374,51 +375,38 @@ footer {
     }
 }
 @media (min-width:1023px) and (max-width:1300px){
-    .socialmedia{
-        display: inline-block;  
-    }
+    .socialmedia{display: inline-block;}
     .subform{
         display: inline-block;
-        
         padding-left: 36vw;
     }
-    .subbutton{
-        display: inline-block;
-    }
+    .subbutton{display: inline-block;}
 }
+
 @media (min-width:1301px) and (max-width:2000px){
-    .socialmedia{
-        display: inline-block; 
-    }
+    .socialmedia{display: inline-block;}
     .subform{
         display: inline-block;
         padding-left: 40vw;
     }
-    .subbutton{
-        display: inline-block;
-    }
+    .subbutton{display: inline-block;}
 }
+
 @media (min-width:1301px) and (max-width:1700px){
-    .socialmedia{
-        display: inline-block; 
-    }
+    .socialmedia{display: inline-block;}
     .subform{
         display: inline-block;
         padding-left: 39vw;
     }
-    .subbutton{
-        display: inline-block;
-    }
+    .subbutton{display: inline-block;}
 }
+
 @media (min-width:1701px){
-    .socialmedia{
-        display: inline-block; 
+    .socialmedia{display: inline-block; 
     }
     .subform{
         display: inline-block;
         padding-left: 53vw;
     }
-    .subbutton{
-        display: inline-block;
-    }
+    .subbutton{display: inline-block;}
 }
