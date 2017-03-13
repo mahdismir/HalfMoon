@@ -221,7 +221,10 @@ div.scrollmenu a:hover {
 }
 /*------------------------ Training -------------------------------*/
 
-
+.textjustify{
+    
+    text-align: justify;
+}
 /*--------------------------Testimonials---------------------------*/
 
 .testimonial-header{
