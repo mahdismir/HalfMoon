@@ -1,12 +1,12 @@
 {
-  "name": "IntroHCI",
+  "name": "Stephanie Pafford Yoga Website",
   "version": "0.0.1",
-  "author": "Intro HCI Staff",
+  "author": "Team Half Moon",
   "repository": {
     "type": "git",
-    "url": "https://github.com/IntroHCI/lab4"
+    "url": "https://github.com/mahdismir/HalfMoon"
   },
-  "license": "MIT",
+  "license": "UCSD",
   "private": true,
   "scripts": {
     "start": "node app.js"
@@ -15,8 +15,6 @@
     "ejs-locals": "^1.0.2",
     "express": "3.x",
     "express3-handlebars": "*",
-    "mongodb": "*",
-    "mongoose": "^4.8.2"
   },
   "engines": {
     "node": "0.10.x"

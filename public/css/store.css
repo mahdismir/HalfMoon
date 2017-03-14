@@ -12,3 +12,22 @@
         float: none!important;
     }
 }
+@media (max-width: 768px) {
+  .responsive {
+    padding:10px 4px;
+    font-size:80%;
+    line-height: 1;
+    text-align: center;
+    margin-bottom: auto;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .responsive {
+    padding:10px 9px;
+    font-size:90%;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: auto;
+  }
+}
