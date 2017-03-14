@@ -18,7 +18,7 @@
 .calendar-resbtn{
     padding: 0 0.5rem;
 }
-#modal_reserve{
+#modal_reserve, #modal_restorative, #modal_nuero{
     background-color: transparent;
     border: 0;
     box-shadow: none;
