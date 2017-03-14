@@ -210,6 +210,21 @@ div.scrollmenu a:hover {
     height: 5px;
     width: 5px;
 }
+
+
+/*------------------------ Sessions -------------------------------*/
+#RestorativeYoga p{
+    text-align: justify;
+}
+#NeurosculptingWorkshops p{
+    text-align: justify;
+}
+/*------------------------ Training -------------------------------*/
+
+.textjustify{
+    
+    text-align: justify;
+}
 /*--------------------------Testimonials---------------------------*/
 
 .testimonial-header{
@@ -322,6 +337,7 @@ div.scrollmenu a:hover {
 }
 
 .footer-media-icon {
+    color: white;
     padding: 1%;
 }
 
@@ -345,15 +361,6 @@ div.scrollmenu a:hover {
     border: 2px solid #189AAA;
 }
 
-#subsform{
-    margin-top: 5px;
-}
-
-footer {
-    color: white !important;
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
-}
 #footer_input{
     border: 0;
 }
@@ -361,23 +368,53 @@ footer {
 #form-footer-label{
     color: white;
 }
-
-.panel-footer.panel-custom{
-  background-color:#1B9AAA;
-  margin: 0px;
-    border: 0px;
-  
+footer {
+    background-color: #1B9AAA;
+    font-family: 'Raleway', sans-serif;
 }
-/*---------------------------------*/
-@media (min-width:992px) and (max-width: 1920px){
-    .footer-media-icon{
-        padding: 1%;
-        margin-top: 50px !important;
-        float: left;
+.socialmedia{display: inline-block;}
+.subform{display: inline-block;}
+.subbutton{display: inline-block;}
+
+/*--------------------- media queries for footer --------------------*/
+
+@media (min-width:319px) and (max-width:1023px){
+    .socialmedia{
+        display: block;
+        padding-top: 20px;
+        text-align: center;
     }
-    #subsform{
-        margin-top: 5px;
-        float: right;
-        width: 50%;
+    .subform{
+        display: block;
+        padding-top: 10px;
+        text-align: center;
     }
+    .subbutton{
+        display: block;
+        padding-bottom: 30px;
+        text-align: center;   
+    }
+}
+@media (min-width:1023px) and (max-width:1300px){
+    .subform{
+        padding-left: 36vw;
+    }
+}
+
+@media (min-width:1301px) and (max-width:2000px){
+    .subform{
+        padding-left: 40vw;
+    }
+}
+
+@media (min-width:1301px) and (max-width:1700px){
+    .subform{
+        padding-left: 39vw;
+    }   
+}
+
+@media (min-width:1701px){
+    .subform{    
+        padding-left: 53vw;
+    } 
 }
