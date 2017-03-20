@@ -1,5 +1,26 @@
-#index_heading{
+#index_heading_bg {
     width: 100%;
+    background-image: url("/images/landing.jpg");
+    background-position: center top;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    padding: 7% 60% 30% 10%;
+}
+
+#index_title_box {
+    position: relative;
+    margin-left: 5%;
+    /*background-color: rgba(0, 122, 0, 0.75);*/
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 100;
+    padding: 1% 2% 2% 5%;
+}
+
+#index_title p {
+    font-family: 'Playfair Display', serif;
+    font-size: 5vw;
+    font-weight: bold;
+    color: #FFFFFF;
 }
 
 #index_leadwords, .index_section_head{
