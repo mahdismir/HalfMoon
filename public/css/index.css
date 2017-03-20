@@ -35,6 +35,10 @@
     padding-top: 5% !important;
 }
 
+.card-img {
+    height: 500px;
+}
+
 .index_o_box_text{
     /*padding: 9% !important;*/
     margin: 6% 0;
