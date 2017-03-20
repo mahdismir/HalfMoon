@@ -1,16 +1,16 @@
 /*
 Heading font: Playfair Display
 Body font: Raleway
-#F5F1E3 Background color (cream)
+#FFFFFF Background color (white)
 #DDDBCB Secondary background color (dark cream)
-#1B9AAA Contrast color (teal)
+#137547 Contrast color (dark spring green)
 #000000 Font color (black)
 #FFFFFF Secondary font/link color (white)
 #D3D3D3 Link hover color (light gray)
 */
 
 body {
-    background: #F3EFDF;
+    background: #FFFFFF;
 }
 
 body, p {
@@ -63,7 +63,7 @@ h5 {
 }
 
 a {
-    color: #1B9AAA;
+    color: #137547;
 }
 
 a:hover {
@@ -72,17 +72,17 @@ a:hover {
 }
 
 .btn {
-    background-color: #1B9AAA;
+    background-color: #137547;
 }
 
 .btn:hover {
     background-color: transparent;
-    border: 2px solid #189AAA;
-    color: #189AAA;
+    border: 2px solid #137547;
+    color: #137547;
 }
 
 .btn-floating {
-    background-color: #189AAA;
+    background-color: #137547;
 }
 
 .btn-floating:hover {
@@ -127,17 +127,23 @@ body,
 
 /*------------ NAVBAR ------------*/
 
+#nav {
+    box-shadow: none;
+}
+
 .navbar_custom {
-    background-color: #1B9AAA;
+    background-color: #FFFFFF;
 }
 
 .navbar_custom a {
-    color: #FFFFFF;
+    color: #000000;
 }
 
 .navbar_custom a:hover {
-    color: #D3D3D3;
-    text-decoration: none;
+    color: #137547;
+    text-decoration: underline;
+    background-color: transparent;
+    /*border-bottom: 5px solid #137547;*/
 }
 
 /*------------ SCROLLING MENU ------------*/
@@ -277,18 +283,52 @@ div.scrollmenu a:hover {
 /*------------ ABOUT PAGE ------------*/
 
 #about_container {
-    width: 75%;
-    margin: auto; /*centers div*/
-    padding: 3% 0%;
+    background-image: url("/images/Stephanie_Clipped.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    /*padding-top: 5%;*/
+    box-shadow: 0 0 50px 10px rgba(255, 255, 255, 0.78);
+    z-index: 1;
 }
 
-#about_image {
+#about_blur {
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 1);
+    z-index: 2;
+}
+
+#about_container_right {
+    height: 700px;
+    margin-left: 55%;
+}
+
+#about_content_box {
+    /*width: 40%;*/
+    height: 80%;
+    overflow: scroll;
+    /*margin: auto;*/ /*centers div*/
+    margin-top: 0;
+    padding: 0 15% 3% 0;
+    box-shadow: -40px 10px 40px 30px rgba(255, 255, 255, .9); /*.79*/
+    z-index: 100;
+    background-color: rgba(255, 255, 255, 0.9); /*.76*/
+}
+
+/*#about_image {
+    height: 500px;
+}*/
+
+/*#about_image img {
     text-align: center;
-}
+    width: 120%;
+    vertical-align: bottom;
+    position: bottom;
+}*/
 
-#about_image img {
+/*#about_image img {
     width: 40vw;
-}
+}*/
 
 #about_header {
     text-align: center;
@@ -298,6 +338,11 @@ div.scrollmenu a:hover {
     #about_image img {
         margin-top: 5%;
         width: 60vw;
+    }
+
+    #about_container_right {
+        margin: 3%;
+        height: 600px;
     }
 }
 
