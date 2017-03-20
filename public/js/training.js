@@ -29,28 +29,28 @@ function two_hide_info() {
     }
 }
 
-function five_hide_info() {
-    $("#500h_hide").toggleClass("training-hiding");
+function resYoga_hide_info() {
+    $("#resYoga_hide").toggleClass("training-hiding");
 
-    if($("#500h_hide").siblings(".training-icon-center").hasClass("glyphicon-plus")){
-        $("#500h_hide").siblings(".training-icon-center").removeClass("glyphicon-plus");
-        $("#500h_hide").siblings(".training-icon-center").addClass("glyphicon-minus");
+    if($("#resYoga_hide").siblings(".training-icon-center").hasClass("glyphicon-plus")){
+        $("#resYoga_hide").siblings(".training-icon-center").removeClass("glyphicon-plus");
+        $("#resYoga_hide").siblings(".training-icon-center").addClass("glyphicon-minus");
     }
     else{
-        $("#500h_hide").siblings(".training-icon-center").removeClass("glyphicon-minus");
-        $("#500h_hide").siblings(".training-icon-center").addClass("glyphicon-plus");
+        $("#resYoga_hide").siblings(".training-icon-center").removeClass("glyphicon-minus");
+        $("#resYoga_hide").siblings(".training-icon-center").addClass("glyphicon-plus");
     }
 }
 
-function conEdu_hide_info() {
-    $("#conEdu_hide").toggleClass("training-hiding");
+function workshops_hide_info() {
+    $("#workshops_hide").toggleClass("training-hiding");
 
-    if($("#conEdu_hide").siblings(".training-icon-center").hasClass("glyphicon-plus")){
-        $("#conEdu_hide").siblings(".training-icon-center").removeClass("glyphicon-plus");
-        $("#conEdu_hide").siblings(".training-icon-center").addClass("glyphicon-minus");
+    if($("#workshops_hide").siblings(".training-icon-center").hasClass("glyphicon-plus")){
+        $("#workshops_hide").siblings(".training-icon-center").removeClass("glyphicon-plus");
+        $("#workshops_hide").siblings(".training-icon-center").addClass("glyphicon-minus");
     }
     else{
-        $("#conEdu_hide").siblings(".training-icon-center").removeClass("glyphicon-minus");
-        $("#conEdu_hide").siblings(".training-icon-center").addClass("glyphicon-plus");
+        $("#workshops_hide").siblings(".training-icon-center").removeClass("glyphicon-minus");
+        $("#workshops_hide").siblings(".training-icon-center").addClass("glyphicon-plus");
     }
 }
